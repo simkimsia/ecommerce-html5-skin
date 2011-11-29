@@ -1,0 +1,11 @@
+*.kpf
+/mainsite/tmp
+.idea
+pmip
+*.tmproj
+app/tmp/cache/cake*
+.DS_Store
+*.DS_Store
+tags
+app/webroot/coverage/*
+app/views/themed/2_cover/*
