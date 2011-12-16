@@ -1,0 +1,253 @@
+/**********************************
+ *    iPad Landscape Version      *
+ **********************************/
+	.iPadBody {
+		background:transparent;
+	}
+	.iPadImg { 
+	   width: 500px !important;
+	   height: 550px !important;
+	   align: center !important;
+	}
+	.iPadCarousel.x-carousel {
+		width: 500px !important; 
+		height: 600px !important; 
+		margin-left : 0px; 
+		background : transparent;
+		left: 30px !important;
+		top: 30px !important;
+	}
+	.iPadSingleProduct {
+		width:500px; 
+		left:-250px; 
+		top: 10px;
+	}
+	.iPadFacebook {
+		background: url(../images/iPad/Facebook-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0.1em 0;
+	}
+	.iPadFacebook.x-button-pressed {
+		background: url(../images/iPad/Facebook-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0.1em 0;
+	}
+	.iPadTwitter {
+		background: url(../images/iPad/Twitter-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPadTwitter.x-button-pressed {
+		background: url(../images/iPad/Twitter-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPadeMail,.iPadeMail.x-button-pressed {
+		background: url(../images/iPad/eMail-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0.1em 0;
+	}
+	.iPadeChat {
+		background: url(../images/iPad/eChat-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0.1em 0;
+	}
+	.iPadeChat.x-button-pressed {
+		background: url(../images/iPad/eChat-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0.1em 0;
+	}
+	.tabbarPanel {
+		border : 0px;
+		top: 90%;
+	}
+	.product-detail {
+		background : transparent; 
+		padding : 15px; 
+		top : 155px;
+	}
+	.iPadProductDetailPanel {
+		background : transparent; 
+		left: -231px; 
+		width: 450px; 
+		top: 269px;
+	}
+	.iPadTabbarButton.x-tabbar.x-docked-bottom .x-tab img {
+		-webkit-mask-size: 30px;
+		min-height: 30px;
+		min-width: 30px;
+		display: block;
+		margin: 8px auto 8px;
+		position: relative;
+		margin-bottom: 25px;
+	}
+	.iPadTabbarButton.x-tabbar.x-docked-bottom {
+		margin-bottom: 15px;
+	}
+	.iPadProductPricePanel {
+		left:60px;
+		top:30px;
+	}
+	.iPadButtonPanel,.iPadButtonPanel.x-layout-box-item {
+		width:1024px !important; 
+		height:60px !important; 
+		background:#F5F5F1;
+		-webkit-box-flex: 0;
+	}
+	.x-scroll-scroller {
+		position: absolute;
+		min-width: 100%;
+		min-height: 100%;
+		-webkit-transform: translate3d(0px, 0px, 0px);
+	}
+/**********************************
+ *    iPad Portrait Version       *
+ **********************************/
+
+@media only screen and (orientation:portrait){
+	/* portrait mode */
+		.iPadBody {
+		background:transparent;
+	}
+	.iPadImg { 
+	   width: 340px !important;
+	   height: 380px !important;
+	   align: center !important;
+	}
+	.iPadCarousel.x-carousel {
+		width: 340px !important; 
+		height: 430px !important; 
+		margin-left : 0px; 
+		background : transparent;
+		left: 30px !important; 
+		top: 60px !important;
+	}
+	.iPadSingleProduct {
+		width:340px; 
+		left:30px; 
+		top: 30px;
+	}
+	.iPadFacebook {
+		background: url(../images/iPad/Facebook-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPadFacebook.x-button-pressed {
+		background: url(../images/iPad/Facebook-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPadTwitter {
+		background: url(../images/iPad/Twitter-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPadTwitter.x-button-pressed {
+		background: url(../images/iPad/Twitter-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPadeMail {
+		background: url(../images/iPad/eMail-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPadeMail.x-button-pressed {
+		background: url(../images/iPad/eMail-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPadeChat {
+		background: url(../images/iPad/eChat-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPadeChat.x-button-pressed {
+		background: url(../images/iPad/eChat-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPadButtonPanel,.iPadButtonPanel.x-layout-box-item {
+		width:768px !important; 
+		height:60px !important; 
+		background:#F5F5F1;
+		-webkit-box-flex: 0;
+	}
+	.iPadProductDetailPanel {
+		background : transparent; 
+		top : 480px;
+		width: 700px;
+		height:300px;
+		left: -602px;
+		background:transparent;
+	}
+	.iPadProductPricePanel {
+		background : transparent;
+		left:90px !important;
+		top:60px !important;
+	}
+	.iPadCarouselAndTitlePanel {
+		height:1024px !important; 
+		background:transparent;		
+	}
+}

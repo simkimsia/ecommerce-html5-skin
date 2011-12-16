@@ -1,0 +1,263 @@
+.x-carousel-indicator-horizontal {
+	height: 80px;
+	width: 100%;
+	z-index: 10000;
+	background: transparent;
+}
+.x-carousel-indicator span {
+	display: block;
+	width: 7px;
+	height: 7px;
+	-webkit-border-radius: 0.25em;
+	border-radius: 0.25em;
+	margin: 0.2em;
+}
+
+/**********************************
+ *    iPhone LandScape Version     *
+ **********************************/
+
+	.iPhoneBody {
+		background:white;
+		font-size: 12px;
+	}
+	.iPhoneImg { 
+	   width: 150px !important;
+	   height: 160px !important;
+	   align: center !important;
+	}
+	.iPhoneCarousel.x-carousel {
+		width: 150px !important; 
+		height: 210px !important; 
+		background : transparent;
+		top: 10px !important; 
+		left:10px !important;
+	}
+	.iPhoneSingleProduct {
+		width:150px; 
+		left:-140px; 
+		top: 5px;
+	}
+	.connect_button_slider {
+		left: 76px;
+		top: -2px;
+	}
+	.iPhoneFacebook, .iPhoneFacebook.x-button-pressed {
+		background: url(../images/iPhone/Facebook-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0.1em 0;
+	}
+	
+	.iPhoneTwitter,.iPhoneTwitter.x-button-pressed {
+		background: url(../images/iPhone/Twitter-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPhoneeChat {
+		background: url(../images/iPhone/eChat-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0.1em 0;
+	}
+	.iPhoneeChat.x-button-pressed {
+		background: url(../images/iPhone/eChat-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0.1em 0;
+	}
+	.iPhoneeMail {
+		background: url(../images/iPhone/eMail-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0.1em 0;
+	}
+	.iPhoneeMail.x-button-pressed {
+		background: url(../images/iPhone/eMail-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0.1em 0;
+	}
+	.iPhoneProductDetailPanel {
+		left: -550px !important; 
+		width: 290px !important; 
+		top: 85px !important;
+	}
+	.iPhoneProductTitle {
+		width:290px !important;
+		height:30px !important;
+		top : 10px !important;
+		left : 30px !important;
+		background : transparent;
+	}
+	.iPhoneProductTitleClass {
+		text-align: left;
+	}
+	.iPhoneProductPricePanel {
+		left : -260px !important; 
+		top : 40px !important;
+		width : 290px !important;
+		height : 60px !important;
+		background : transparent; 
+	}
+	.iPhoneTabbarButton.x-tabbar.x-docked-bottom .x-tab img {
+		-webkit-mask-size: 24px;
+		min-height: 24px;
+		min-width: 24px;
+		display: block;
+		margin: 8px auto 8px;
+		position: relative;
+	}
+	.iPhoneProductPriceButtonPanel{
+		top : -20px !important; 
+		left:100px !important; 
+		width:150px !important;
+	}
+	.iPhoneButtonPanel {
+		width:480px !important; 
+		height:40px !important; 
+		background:#F5F5F1;
+	}
+	.iPhoneCarouselAndTitlePanel {
+		width:480px !important; 
+		background:transparent;
+	}
+/********************************
+*     iPhone Portrait Version   *
+*********************************/
+@media only screen and (orientation:portrait){
+	/* portrait mode */
+	.iPhoneBody {
+		background:transparent;
+		font-size: 12px;
+	}
+	.iPhoneImg { 
+	   width: 250px !important;
+	   height: 210px !important;
+	   align: center !important;
+	}
+	.iPhoneCarousel.x-carousel {
+		width: 250px !important; 
+		height: 260px !important; 
+		background : transparent;
+		top: 30px !important;
+		left: 30px !important; 
+	}
+	.connect_button_slider {
+		left: 76px;
+		top: -2px;
+	}
+	.iPhoneFacebook, .iPhoneFacebook.x-button-pressed {
+		background: url(../images/iPhone/Facebook-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0.1em 0;
+	}
+	
+	.iPhoneTwitter,.iPhoneTwitter.x-button-pressed {
+		background: url(../images/iPhone/Twitter-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+		.iPhoneeChat {
+		background: url(../images/iPhone/eChat-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPhoneeChat.x-button-pressed {
+		background: url(../images/iPhone/eChat-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPhoneeMail {
+		background: url(../images/iPhone/eMail-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPhoneeMail.x-button-pressed {
+		background: url(../images/iPhone/eMail-normal.png) no-repeat;
+		border: none;
+		border: 0px solid transparent;
+		border-top-color: transparent;
+		color: transparent;
+		text-shadow: transparent 0 0 0;
+		-webkit-box-shadow: rgba(0, 0, 0, 0) 0 0 0;
+	}
+	.iPhoneProductDetailPanel {
+		background : transparent; 
+		top : 300px !important;
+		width: 300px !important;
+		left: -810px !important;
+	}
+	.iPhoneProductTitle {
+		width:320px !important;
+		height:30px !important;
+		top : 5px !important;
+		left : -250px !important;
+		background : transparent;
+	}
+	.iPhoneProductTitleClass {
+		text-align: center;
+		background:transparent;
+	}
+	.iPhoneProductPricePanel {
+		left : -540px !important; 
+		top : 260px !important;
+		width : 250px !important;
+		height : 60px !important;
+		background:transparent;
+	}
+	.iPhoneProductPriceButtonPanel{
+		left:100px !important;
+		top:100px !important;
+		background:transparent;
+	}
+	.iPhoneButtonPanel {
+		width:320px !important; 
+		height:40px !important; 
+		background:#F5F5F1;
+	}
+	.iPhoneCarouselAndTitlePanel {
+		width:320px !important; 
+		height:400px !important;
+		background:transparent; 
+	}
+}
